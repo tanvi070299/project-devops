@@ -4,6 +4,3 @@ php:
   - nightly
 
 script: ./build.sh
-
-before_install:
-  - chmod +x build.sh
