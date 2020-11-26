@@ -1,13 +1,9 @@
 language: php
 
-php:
- - 5.4
- - 5.5
-
 install:
+  - php vendor/vendors.php
   - composer install
   - ./bin/ci/install_dependencies.sh
-  - php vendor/vendors.php
   - composer require symfony/framework-bundle:${SYMFONY_VERSION}
   
  env:
