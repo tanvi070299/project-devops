@@ -1,6 +1,4 @@
 language: php
 
 php:
-  - nightly
-
-script: ./build.sh
+  - 7.3.8
