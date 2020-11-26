@@ -4,6 +4,18 @@ php:
  - 5.4
  - 5.5
 
-install: composer install
+install:
+  - composer install
+  - ./bin/ci/install_dependencies.sh
+  - php vendor/vendors.php
+  - composer require symfony/framework-bundle:${SYMFONY_VERSION}
+  
+ env:
+  - SYMFONY_VERSION="2.0.*" DB=mysql
+  - SYMFONY_VERSION="dev-master" DB=mysql
+  
+ before_script: phpenv config-add myconfig.ini
 
-script: ./vendor/bin/phpunit
+ script: 
+  -./vendor/bin/phpunit
+  -phpunit --configuration $DB.phpunit.xml
