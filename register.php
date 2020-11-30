@@ -12,7 +12,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register || TABOBILE STORE</title>
+    <title>Register || AnyList</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -21,7 +21,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">TABOBILE STORE</a></h1>
+          <h1><a href="index.php">AnyList</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -61,7 +61,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">First Name</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Aapka naam" name="fname">
+              <input type="text" id="right-label" placeholder="Enter your First Name" name="fname">
             </div>
           </div>
           <div class="row">
@@ -69,7 +69,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">Last Name</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Poora naam!!!" name="lname">
+              <input type="text" id="right-label" placeholder="Enter your Last Name" name="lname">
             </div>
           </div>
           <div class="row">
@@ -77,7 +77,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">Address</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Kahaa rehte ho??" name="address">
+              <input type="text" id="right-label" placeholder="Enter your Address" name="address">
             </div>
           </div>
           <div class="row">
@@ -85,7 +85,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">City</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Konsa shahar" name="city">
+              <input type="text" id="right-label" placeholder="Enter your City" name="city">
             </div>
           </div>
           <div class="row">
@@ -101,7 +101,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">E-Mail</label>
             </div>
             <div class="small-8 columns">
-              <input type="email" id="right-label" placeholder="aapki_email_id@domain_name.com" name="email">
+              <input type="email" id="right-label" placeholder="<email_id>@domain_name.com" name="email">
             </div>
           </div>
           <div class="row">
@@ -109,7 +109,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">Password</label>
             </div>
             <div class="small-8 columns">
-              <input type="password" id="right-label" placeholder="kisi ko mat batanaa..." name="pwd">
+              <input type="password" id="right-label" placeholder="Enter your password" name="pwd">
             </div>
           </div>
           <div class="row">
@@ -130,7 +130,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
       <div class="small-12">
 
         <footer>
-           <p style="text-align:center; font-size:0.8em;">&copy; TABOBILE STORE. All Rights Reserved.</p>
+           <p style="text-align:center; font-size:0.8em;">&copy; AnyList. All Rights Reserved.</p>
         </footer>
 
       </div>
