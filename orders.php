@@ -13,7 +13,7 @@ include 'config.php';
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Orders || TABOBILE STORE</title>
+    <title>My Orders || AnyList</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -22,7 +22,7 @@ include 'config.php';
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">TABOBILE STORE</a></h1>
+          <h1><a href="index.php">AnyList</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -84,7 +84,7 @@ include 'config.php';
       <div class="small-12">
 
         <footer style="margin-top:10px;">
-           <p style="text-align:center; font-size:0.8em;">&copy; TABOBILE STORE. All Rights Reserved.</p>
+           <p style="text-align:center; font-size:0.8em;">&copy; AnyList. All Rights Reserved.</p>
         </footer>
 
       </div>
