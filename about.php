@@ -9,7 +9,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us || TABOBILE STORE</title>
+    <title>About Us || AnyList</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -18,7 +18,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">TABOBILE STORE</a></h1>
+          <h1><a href="index.php">Anylist</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -50,13 +50,12 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
 
     <div class="row" style="margin-top:30px;">
       <div class="small-12">
-        <p>TABOBILE STORE is a project on E-Commerce Website. All products listed are fake. This project just gives a preview to what a real world implementation of E-Commerce Website will look like. Well if you do like the website then visit
-        <a href="http://www.sans.com" target="_blank" title="SANS Solutions"> SANS Solutions</a>.</p>
+        <p>Any List is new age online grocery store o deliver fresh groceries at your home without any hustle.
 
-        <p> Tablet + Mobile = TABOBILE</p>
+        <p> All time solutions for your kirana store or grocery lists.</p>
 
         <footer>
-           <p style="text-align:center; font-size:0.8em;">&copy; TABOBILE STORE. All Rights Reserved.</p>
+           <p style="text-align:center; font-size:0.8em;">&copy; AnyList. All Rights Reserved.</p>
         </footer>
 
       </div>
