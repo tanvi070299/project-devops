@@ -91,7 +91,7 @@ html, body {
     text-align: center;
     width: 200px;
     color: #fff;
-    background: rgba(0, 0, 0, 0.5) url(./img/a1.jpg) no-repeat top;
+    background: rgba(0, 0, 0, 0.5) url(./images/a1.jpg) no-repeat top;
     height: 100%;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   }
