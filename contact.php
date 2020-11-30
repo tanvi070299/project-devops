@@ -9,7 +9,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnyList</title>
+    <title>Contact || AnyList</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -18,7 +18,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php"> AnyList</a></h1>
+          <h1><a href="index.php">AnyList</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -29,7 +29,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
           <li><a href="products.php">Products</a></li>
           <li><a href="cart.php">View Cart</a></li>
           <li><a href="orders.php">My Orders</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li class="active"><a href="contact.php">Contact</a></li>
           <?php
 
           if(isset($_SESSION['username'])){
@@ -48,17 +48,19 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
 
 
 
-    <div class="row" style="margin-top:10px;">
+    <div class="row" style="margin-top:30px;">
       <div class="small-12">
-        <p>Success. Whatever task you performed, has been executed successfully. Congrats!</p>
 
+        <p>Wanna get in touch? Email us at <a href="mailto:sansgroup@gmail.com">anylist.contactus@gmail.com</a></p>
 
-        <footer style="margin-top:10px;">
+        <footer>
            <p style="text-align:center; font-size:0.8em;">&copy; AnyList. All Rights Reserved.</p>
         </footer>
 
       </div>
     </div>
+
+
 
 
 
